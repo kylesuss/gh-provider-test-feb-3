@@ -1,3 +1,3 @@
 # Chromatic Test
 
-Hello world!
+Hello merge!
