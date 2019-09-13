@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "chromatic": "CHROMATIC_INDEX_URL=http://localhost:3007 chromatic test --app-code b1cexi5krxt",
+    "chromatic": "CHROMATIC_INDEX_URL=http://localhost:3007 chromatic test --app-code 67ppc6lzew",
     "build-storybook": "build-storybook"
   },
   "repository": {
@@ -21,7 +21,6 @@
     "@babel/core": "^7.5.5",
     "@storybook/html": "^5.1.9",
     "babel-loader": "^8.0.6",
-    "storybook-chromatic": "^2.0.0"
-  },
-  "dependencies": {}
+    "storybook-chromatic": "^2.2.2"
+  }
 }
