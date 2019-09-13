@@ -6,7 +6,7 @@ storiesOf('Demo', module)
   .add('button', () => {
     const button = document.createElement('button');
     button.type = 'button';
-    button.innerText = 'Hello Button';
+    button.innerText = 'Hello Buttonz';
     button.addEventListener('click', e => console.log(e));
     return button;
   });
