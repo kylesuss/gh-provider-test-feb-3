@@ -16,7 +16,10 @@ HeadingLevel3.story = {
   name: "heading level 3"
 };
 
-export const HeadingLevel4 = () => "<h4>Heading Level 4 New</h4>";
+export const HeadingLevel4 = () => {
+  throw new Error("DERP");
+  return "<h4>Heading Level 4 New</h4>";
+};
 
 HeadingLevel4.story = {
   name: "heading level 4"
